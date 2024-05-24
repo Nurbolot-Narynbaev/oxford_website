@@ -44,6 +44,17 @@ INSTALLED_APPS = [
     'drf_yasg',
     'rest_framework_simplejwt',
     'rest_framework_simplejwt.token_blacklist',
+
+    'apps.account',
+    'apps.academics',
+    'apps.admissions',
+    'apps.engschool',
+    'apps.faculty',
+    'apps.information',
+    'apps.kindergarten',
+    'apps.news',
+    'apps.questions',
+    'apps.ruschool',
 ]
 
 MIDDLEWARE = [
