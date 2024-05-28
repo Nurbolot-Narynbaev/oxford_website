@@ -71,10 +71,7 @@ class Information(models.Model):
     address = models.CharField(max_length=20)
     phone = models.CharField(max_length=13)
     email = models.CharField(max_length=20)
-    principal = models.ForeignKey(
-        to=Faculty,
-        on_delete=models.DO_NOTHING
-    )
+    principal = models.CharField(max_length=30)
     logo = models.ImageField(upload_to='media/logo')
 
     def __str__(self) -> str:

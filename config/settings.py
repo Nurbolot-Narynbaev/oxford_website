@@ -53,7 +53,7 @@ INSTALLED_APPS = [
     'apps.information',
     'apps.kindergarten',
     'apps.news',
-    'apps.questions',
+    # 'apps.questions',
     'apps.ruschool',
 ]
 
